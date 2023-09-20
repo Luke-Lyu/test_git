@@ -11,3 +11,6 @@ git reset --hard HEAD^
 场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库。
 git rm 用于删除版本库中的一个文件。
 git check 使用版本库里的版本替换工作区的版本，无论工作区是修改还是删除，都可以还原。
+git remote add origin git@github.com:Luke-Lyu/test_git.git 将本地仓库与远程仓库进行关联
+git push -u origin master
+git push -u origin main 默认的远程库的名字是origin，这步是把本地库的所有内容推送到远程库上。
