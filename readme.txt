@@ -14,3 +14,5 @@ git check 使用版本库里的版本替换工作区的版本，无论工作区�
 git remote add origin git@github.com:Luke-Lyu/test_git.git 将本地仓库与远程仓库进行关联
 git push -u origin master
 git push -u origin main 默认的远程库的名字是origin，这步是把本地库的所有内容推送到远程库上。
+git branch dev 创建分支
+git checkout dev 移动到分支 git checkout -b xx 创建并移动到分支xx
