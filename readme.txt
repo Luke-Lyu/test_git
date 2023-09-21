@@ -16,3 +16,9 @@ git push -u origin master
 git push -u origin main 默认的远程库的名字是origin，这步是把本地库的所有内容推送到远程库上。
 git branch dev 创建分支
 git checkout dev 移动到分支 git checkout -b xx 创建并移动到分支xx
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>或者git switch <name>
+创建+切换分支：git checkout -b <name>或者git switch -c <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
